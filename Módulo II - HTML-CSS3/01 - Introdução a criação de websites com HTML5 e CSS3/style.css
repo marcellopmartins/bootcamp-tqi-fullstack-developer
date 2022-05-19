@@ -1,0 +1,107 @@
+body{
+	background: #9999ff;
+	max-width: 900px;
+	margin: auto;
+}
+
+.photo {
+	width: 90px;
+	background: #000040;
+	padding: 3px;
+	align-content: center;
+	border: 5px solid #4d4cff;
+	margin: 0px;
+	margin-bottom: 1px;
+	border-radius: 50px;
+	
+}
+
+.photo-texto {
+	width: 350px;
+	background: #000040;
+	padding: 3px;
+	align-content: center;
+	border: 5px solid #4d4cff;
+	margin: 0px;
+	margin-bottom: 1px;
+	border-radius: 0px;
+	
+}
+
+.button-gmail {
+	background-color: #0000ff;  	 
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	
+}
+
+.button-linkedin {
+	background-color: #ff2626;  
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	
+}
+
+#title, .subtitle, .post_title{
+	color: blue;
+	font: italic small-caps bold 12px/30px Georgia, serif;
+	font-size: 20px;
+	margin-top: 1px
+	
+}
+
+.post_title {
+	background: #464637;
+	font-size: 7px;
+	font-style: italic;
+	margin-bottom:15px;
+}
+
+.post {
+	background: #464637;
+	padding: 15px;
+	border: 3px solid #000;
+	margin: 10px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	
+}
+
+.post_content {
+	
+	font: small-caps bold 12px/30px Georgia, serif;
+	font-size: 20px;
+	text-align: justify;
+	color: #ffff26;
+	background: #000040;
+	padding: 25px;
+	border: 3px solid #000;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	margin:10;
+	margin-bottom: 15px;
+}
+
+.post_image {
+	margin-bottom: 15px;
+}
+
+.contact-list {
+	padding:0;
+	list-style-type: square;
+
+}
+
+.contact-list li a {
+	color: #8c0000;
+}
