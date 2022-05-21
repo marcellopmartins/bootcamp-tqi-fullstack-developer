@@ -10,7 +10,7 @@ body {
 /* HEADER */
 
 .header-wrapper {
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     background: linear-gradient(-45deg, #050404, #2E1C2B, #4A1942, #893168);
     background-size: 400% 400%;
@@ -235,15 +235,17 @@ a:hover {
     font-family: sans-serif;
     letter-spacing: 1px;
     color: rgb(109, 109, 109);
+	text-align: justify;
 }
 
 .card-wrapper {
-    text-align: center;
+    text-align: justify;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
+	
 }
 
 .card-wrapper::before {
@@ -255,6 +257,7 @@ a:hover {
     border: 1px solid white;
     opacity: 0;
     transition: 0.3s;
+	text-align: justify;
 }
 
 .card-wrapper h2 {
@@ -335,4 +338,41 @@ a:hover {
         height: 190px;
         width: 190px;
     }
+	
+}
+
+section{
+    width: 100%;
+    height: 0vh;
+    position: relative;
+}
+
+div.setaBaixo{
+    width: 40px;
+    height: 40px;
+    background-image: url("setaDown.png");
+    background-size: contain;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    animation-name: setaBaixo;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes setaBaixo{
+    0%{
+        top: 10px;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+h3{
+    color: white;
+    font-family: roboto;
+    font-weight: 300;
 }
