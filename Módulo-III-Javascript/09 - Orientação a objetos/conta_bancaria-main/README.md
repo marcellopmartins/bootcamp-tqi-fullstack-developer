@@ -20,3 +20,26 @@ Crie uma classe-filha chamada ContaPoupanca que herda todos os parâmetros de Co
 Crie uma classe-filha chamada ContaUniversitaria que herda todos os parâmetros de ContaBancaria;
 
 Faça com que o método saque de ContaUniversitaria apenas seja capaz de sacar valores menores que 500 reais.
+
+Testando no Navegardor:
+
+const minhaConta = new ContaCorrente(1,1234,true)
+minhaConta._saldo
+minhaConta.depositar(1000)
+minhaConta._saldo
+minhaConta.sacar(500)
+minhaConta.sacar(600)
+ 
+const  contaPoup = new ContaPoupanca(1,345)
+contaPoup._saldo
+contaPoup.depositar(1000)
+contaPoup._saldo
+contaPoup.sacar(500)
+contaPoup.sacar(600)
+
+const  contaUni = new ContaUniversitaria(1,345)
+contaUni._saldo
+contaUni.depositar(1000)
+contaUni._saldo
+contaUni.sacar(800)
+contaUni.sacar(600)
